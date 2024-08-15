@@ -16,7 +16,7 @@ jobs:
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 3.0.4 # Adjust this according to your Yard project's Ruby version
+          ruby-version: 3.0.6 # Adjust this according to your Yard project's Ruby version
 
       - name: Install dependencies
         run: |
